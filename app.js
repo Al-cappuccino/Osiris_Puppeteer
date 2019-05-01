@@ -15,7 +15,7 @@ class HintPuppet {
 
     init() {
         (async () => {
-            const browser = await puppeteer.launch({headless: this.headless});
+            const browser = await puppeteer.launch({headless: this.headless, args: ['--no-sandbox', '--disable-setuid-sandbox']});
 
             const page = await browser.newPage();
             await page.goto('https://student.osiris.hro.nl:9021/osiris_student/ToonResultaten.do');
