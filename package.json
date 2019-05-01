@@ -6,5 +6,8 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "puppeteer": "^1.15.0",
+    "pushover-notifications": "^1.2.0",
+    "tabletojson": "^1.0.4"
   }
 }
