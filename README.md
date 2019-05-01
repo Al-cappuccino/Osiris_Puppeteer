@@ -9,7 +9,7 @@ First of you need to have installed the following packages:
 * pushover
 * fs
 
-This script will check your Enviroment Variables for your Username and Password, it's the same for the Pushover notifications. So you will need to set these. You can do this using the following commands
+This script will check your Enviroment Variables for your Username and Password, it's the same for the Pushover notifications. So you will need to set these. You can do this using the following commands:
 
 #### Windows
 ```
