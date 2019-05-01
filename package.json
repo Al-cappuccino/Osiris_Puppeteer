@@ -9,5 +9,8 @@
     "puppeteer": "^1.15.0",
     "pushover-notifications": "^1.2.0",
     "tabletojson": "^1.0.4"
+  },
+  "engines": {
+    "node": "11.x"
   }
 }
